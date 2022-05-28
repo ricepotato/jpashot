@@ -10,14 +10,12 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Transactional // 테스트에서 사용될 때 완료시 rollback
-public class MemberRepositoryTest {
+public class MemberServiceTest {
 
     @Autowired
     MemberService memberService;
