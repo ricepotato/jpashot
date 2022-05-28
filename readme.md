@@ -18,4 +18,10 @@ cmd + shift + t
 ./gradlew clean build
 ```
 
+## fetch
+
+ManyToOne 은 기본값이 `EAGER` 이므로 `LAZY` 로 변경 필요.
+
+실무에서는 반드시 `LAZY` 사용. 
+
 
