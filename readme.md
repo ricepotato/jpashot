@@ -6,6 +6,10 @@ bin/h2.sh 실행
 
 실행 후 localhost:8082 
 
+JDBC URL :`jdbc:h2:~/jpashop`
+
+JDBC URL TCP : `jdbc:h2:tcp://localhost/~/jpashop`
+
 ## test 만들기 단축키
 cmd + shift + t
 
