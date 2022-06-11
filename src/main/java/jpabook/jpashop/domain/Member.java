@@ -26,6 +26,7 @@ public class Member {
     private List<Order> orders = new ArrayList<>();
 
 
+    @OneToMany(mappedBy = "member")
     public List<Order> getOrders() {
         return this.orders;
     }
