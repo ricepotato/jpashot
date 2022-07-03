@@ -20,7 +20,7 @@ public class MemberServiceTest {
     @Autowired
     MemberService memberService;
     @Autowired
-    MemberRepository memberRepository;
+    MemberRepositoryOld memberRepository;
 
     @Test
     @Rollback(false)
